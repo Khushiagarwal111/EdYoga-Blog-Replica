@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+Header nav {
+    padding: 16px 78px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 20px;
+    justify-content: space-evenly;
+    justify-content: : center;
+}
+
+.logo {
+    width: 130px;
+    size: 32px;
+    color: #0084ff;
+    font-weight: 1000;
+    font-style: raleway, sans-serif;
+    font-size: 32px;
+}
+
+.Logo_Stories_Text {
+    margin: 0;
+    font-weight: 500px;
+    font-style: raleway, serif;
+    font-style: Italic;
+}
+
+.dropbtn {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+button {
+    height: 40px;
+    width: 160px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border-radius: 10px solid black;
+    background-color: blue;
+    float: right;
+}
+
+button a {
+    color: white;
+}
+
+i {
+    margin: 10px;
+    padding: 2px;
+}
+
+#icon2 {
+    color: blue;
+}
+
+#icon2 :hover {
+    color: skyblue;
+}
+
+.li {
+    text-emphasis: none;
+    list-style: none;
+}
+
+body {
+    background-color: azure;
+}
+
+.Heading {
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+    size: 30px;
+}
+
+.Categories_container {
+    size: 16px;
+    padding-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Categories {
+    padding: 6px 14px;
+    width: auto;
+    color: #0084FF;
+    border-radius: 15px;
+    Border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Categories a {
+    color: blue;
+    text-decoration: none;
+}
+
+.Categories:hover {
+    color: #fff;
+    background-color: #0084ff;
+}
+
+.Categories a:active {
+    color: #fff;
+    background-color: #0084ff;
+}
+
+.Categories a:hover {
+    color: #fff;
+    /* padding: 6px 14px; */
+    width: auto;
+    background-color: #0084ff;
+}
+
+*/ .filter_ text {
+    size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.main {
+    width: 80%;
+    padding: 2px;
+    margin: 2px;
+    float: center;
+}
+
+
+/* .footer {
+background-color: #172146;
+padding: 80px 16;
+display: block;
+color: #fff;
+}
+
+.footer p a {
+float: right;
+color: #fff;
+padding: 80px 16;
+}
+
+footer .h4 {
+float: left;
+}
+
+
+} */
+
+.Item {
+    width: 31.3%;
+    box-shadow: 2px 2px 5px 5px rgb(161, 152, 152);
+    @media (min-width: 800px);
+    margin: 2px;
+    /* display: inline-block; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.image_section {
+    height: 176px;
+    width: 100%;
+}
+
+.image_section img {
+    width: 100%;
+    height: 100%;
+    border top left radius: 5px solid blue;
+    border top right radius: 5px solid;
+}
+
+.text_Section {
+    padding: 10px 24px;
+    text size: 14px;
+    text weight: 400;
+    line height: 1.43;
+    color: rgba(0, 0, 0, 6);
+    margin: 4px 0;
+}
+
+.title {
+    font size: 18px;
+    text alignment: left;
+    Margin: 20px;
+    font weight: 600px;
+    font-weight: bold;
+}
+
+.Date {
+    color: rgba ( 0, 0, 0, 7);
+    text size: 14px;
+    font weight: 300;
+    display: inline;
+}
+
+.author {
+    color: #0096ff;
+    text size: 14px;
+    text style: italic;
+    text weight: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline;
+}
+
+.Author_container {
+    padding-top: 4px;
+    text size: 14px;
+    font weight: 400px;
+    line height: 1.43;
+    color: rgba(0, 0, 0, 6);
+    margin: 4px 0;
+    display: inline;
+}
+
+.text_section {
+    padding: 10px 24px;
+    text size: 14px;
+    text weight: 400;
+    line height: 1.43;
+    color: rgba(0, 0, 0, , 6);
+    margin: 4px 0;
+}
+
+.footer {
+    background-color: #172146;
+    padding: 80px 16;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 2px 2px;
+    align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.f1 {
+    float: left;
+}
+
+
+/* .f2 {
+float: right;
+} */
+
+.footer>.f2 {
+    float: right;
+    color: #fff;
+    padding: 80px 36;
+}
+
+main {
+    /* background-color: black;
+    margin-left: 20px;
+    margin-right: 20px; */
+    display: inline-block;
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+* {
+    padding: 0px;
+    margin: 1px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px: width: 80%;
+    justify-content: center;
+    width: 1500px;
+    background-color: azure;
+}
